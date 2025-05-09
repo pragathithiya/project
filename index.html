@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simple Shopping Cart</h1>
+  <div class="container">
+    <div class="products" id="product-list">
+      <!-- Products will be dynamically inserted -->
+    </div>
+    <div class="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total">0.00</span></p>
+      <button onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
